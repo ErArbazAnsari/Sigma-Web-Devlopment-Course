@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms and Input Tags</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Registration Form</h1>
+        <form action="post">
+            <label for="username">Enter Your Name: </label>
+            <input type="text" name="username" id="username" placeholder="Your Name" autofocus pattern="a-zA-Z0-1">
+            <div class="gender">
+                <label for="gender">Choose Your Gender:</label>
+                <input type="radio" name="gender" id="male" value="Male">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="female">
+                <label for="female">Female</label>
+                <input type="radio" name="gender" id="others">
+                <label for="others">Others</label>
+            </div>
+
+            <div class="checkbox">
+                <input type="checkbox" name="subscriber" id="subscriber" value="yes" required>
+                <label for="subscriber">Do You Want To Subscribe Our News Letter</label>
+            </div>
+
+            <div class="comment">
+                <label for="comment">Your Feedback Matters!</label><br>
+                <textarea name="comment" id="comment" cols="50" rows="30"
+                    placeholder="Enter Your Feedback..."></textarea>
+            </div>
+
+            <div class="select_tag">
+                <select name="fruits" id="fruits">
+                    <option value="apple">apple</option>
+                    <option value="grapes">grapes</option>
+                    <option value="banana">banana</option>
+                </select>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
