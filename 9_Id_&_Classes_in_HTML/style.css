@@ -1,0 +1,54 @@
+body {
+    background-color: antiquewhite;
+}
+
+.heading,
+.para {
+    background-color: blueviolet;
+}
+
+.h1,
+.paragraph {
+    color: azure;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main-heading {
+    border: 5px solid black;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    text-align: center;
+}
+
+#main-para {
+    margin-top: 20px;
+    border: 5px solid black;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    text-align: center;
+}
+
+#container {
+    background-color: aqua;
+    margin-top: 2%;
+    padding: 2% 5% 2% 5%;
+    border: 5px solid orange;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    height: 500px;
+    width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
