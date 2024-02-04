@@ -1,0 +1,16 @@
+body {
+    background: #ddbbbb;
+    color: blueviolet;
+    text-align: center;
+    margin: 10% 10% 10% 10%;
+}
+
+.container {
+    background-color: aqua;
+    padding: 2% 0% 2% 0%;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
