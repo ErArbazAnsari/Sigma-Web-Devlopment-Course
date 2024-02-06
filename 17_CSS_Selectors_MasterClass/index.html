@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: rgb(113, 155, 211);
+        }
+
+        /* div{
+            color: red;
+        } */
+        /*class selector*/
+        .red {
+            color: red;
+            background-color: yellow;
+        }
+
+        /*id selector*/
+        #green {
+            color: greenyellow;
+            background-color: grey;
+        }
+
+        /*Child selector*/
+        div>p {
+            background-color: aqua;
+            color: black;
+            font-size: 20px;
+            font-weight: bold;
+            border: 3px solid red;
+        }
+
+        /*Desendent Selector */
+        div article {
+            color: blue;
+            background-color: aqua;
+            border: 2px solid yellow;
+        }
+
+        /*Universal Selector*/
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        /*Pseudo Selector*/
+        a:visited {
+            color: rgb(0, 0, 0);
+        }
+
+        a:active {
+            color: rebeccapurple;
+            background-color: yellow;
+        }
+
+        a:link {
+            color: rgba(0, 0, 0, 0.288);
+        }
+
+        a:hover {
+            background-color: purple;
+        }
+
+        .links {
+            font-size: 30px;
+            font-weight: bold;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="red">
+        <h1>h1 heading</h1>
+        <p>Lorem ipsum dolor sit.</p>
+    </div>
+
+    <body>
+        <div id="green">
+            <h1>h1 heading</h1>
+        </div>
+
+        <body>
+            <div id="yellow">
+                <article>
+                    <h1>h1 heading</h1>
+                </article>
+            </div>
+
+            <div class="links">
+                <ul type="circle">
+                    <li><a href="https://www.google.com">Google</a></li>
+                    <li><a href="https://www.facebook.com">facebook</a></li>
+                    <li><a href="https://www.instagram.com">instagram</a></li>
+                    <li><a href="https://www.godaddy.com">godaddy</a></li>
+                </ul>
+            </div>
+        </body>
+
+</html>
