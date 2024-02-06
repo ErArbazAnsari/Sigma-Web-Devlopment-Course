@@ -5,10 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Video, Audio & Media in HTML</title>
+    <style>
+        video {
+            border-radius: 30px;
+        }
+    </style>
 </head>
 
 <body>
     <h1>Video, Audio & Media in HTML</h1>
+    <video src="video.mp4" controls width="500" loop muted poster="img.png" autoplay></video>
+    <audio src="audio.mp3" controls autoplay loop preload="auto"></audio>
+
+    <<iframe width="560" height="315" src="https://www.youtube.com/embed/XZwBNDGuWGU?si=O15JOJao2yytgNFw&amp;start=775"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
 </body>
 
 </html>
