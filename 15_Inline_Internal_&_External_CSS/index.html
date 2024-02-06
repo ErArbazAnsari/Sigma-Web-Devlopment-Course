@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline, Internal & External CSS</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color: cadetblue;
+        }
+
+        .internal_css {
+            color: aqua;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: blue;
+            border: 2px solid rgb(255, 0, 43);
+            border-radius: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1 style="color: blue; background-color: yellow;border: 2px solid red; border-radius: 20px">This is inline CSS
+        </h1>
+        <div class="internal_css">
+            <h1>This is Internal CSS</h1>
+        </div>
+        <div class="external_css">
+            <h1>This is External CSS</h1>
+        </div>
+    </main>
+</body>
+
+</html>

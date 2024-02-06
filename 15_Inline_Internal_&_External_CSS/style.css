@@ -1,0 +1,9 @@
+.external_css {
+    margin-top: 1%;
+    color: rgb(68, 0, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(215, 215, 235);
+    border: 2px solid rgb(0, 26, 255);
+    border-radius: 20px;
+    font-weight: bold;
+}
