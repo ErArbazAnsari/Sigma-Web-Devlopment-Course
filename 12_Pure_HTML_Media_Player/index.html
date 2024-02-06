@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pure HTML Media Player</title>
+    <style>
+        body,
+        .main {
+            background-color: rgb(112, 133, 151);
+            margin-left: 50px;
+            display: block;
+
+
+        }
+
+        video {
+            border-radius: 20px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .audios {
+            margin-top: 2%;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1>Video, Audio & Media in HTML</h1>
+        <div class="videos">
+            <video src="video1.mp4" controls width="300" loop poster="img.png"></video>
+            <video src="video2.mp4" controls width="300" loop poster="img.png"></video>
+            <video src="video3.mp4" controls width="300" loop poster="img.png"></video>
+            <video src="video4.mp4" controls width="300" loop poster="img.png"></video>
+            <video src="video5.mp4" controls width="300" loop poster="img.png"></video>
+            <video src="video6.mp4" controls width="300" loop poster="img.png"></video>
+
+        </div>
+        <div class="audios">
+            <audio src="audio.mp3" controls loop preload="auto"></audio>
+            <audio src="audio.mp3" controls loop preload="auto"></audio>
+            <audio src="audio.mp3" controls loop preload="auto"></audio>
+            <audio src="audio.mp3" controls loop preload="auto"></audio>
+            <audio src="audio.mp3" controls loop preload="auto"></audio>
+            <audio src="audio.mp3" controls loop preload="auto"></audio>
+        </div>
+    </main>
+</body>
+
+</html>
