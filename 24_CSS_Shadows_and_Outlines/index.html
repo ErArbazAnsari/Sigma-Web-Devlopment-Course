@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Shadows and Outlines</title>
+    <style>
+        .box {
+            background-color: aqua;
+            color: black;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 30px;
+            border: 2px solid blue;
+            /*display: inline-block;*/
+            padding: 20px;
+            width: 300px;
+            height: 400px;
+            margin: 3% 1%;
+            border-radius: 20px;
+            display: inline-block;
+            text-align: center;
+            box-shadow: 0 0 16px 6px rgb(0, 0, 255);
+        }
+
+        .box:hover {
+            background-color: rgb(227, 168, 245);
+            color: black;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 30px;
+            border: 2px solid rgb(104, 104, 153);
+            /*display: inline-block;*/
+            padding: 20px;
+            width: 300px;
+            height: 400px;
+            margin: 3% 1%;
+            border-radius: 20px;
+            display: inline-block;
+            text-align: center;
+            box-shadow: 0 0 16px 6px rgb(104, 104, 153);
+            cursor: pointer;
+        }
+
+        .box:active {
+            background-color: rgb(196, 253, 131);
+            color: black;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 30px;
+            border: 2px solid rgb(189, 99, 250);
+            /*display: inline-block;*/
+            padding: 20px;
+            width: 300px;
+            height: 400px;
+            margin: 3% 1%;
+            border-radius: 20px;
+            display: inline-block;
+            text-align: center;
+            box-shadow: 0 0 16px 6px rgb(189, 99, 250);
+            font-weight: bold;
+            /*text-shadow: 2px  2px 2px rgb(255, 0, 0);*/
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <p>Shadows Box</p>
+    </div>
+    <div class="box">
+        <p>Shadows Box</p>
+    </div>
+    <div class="box">
+        <p>Shadows Box</p>
+    </div>
+    <div class="box">
+        <p>Shadows Box</p>
+    </div>
+
+</body>
+
+</html>
