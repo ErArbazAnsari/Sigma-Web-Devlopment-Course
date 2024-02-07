@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Display Property</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .box {
+            border: 2px solid grey;
+            background-color: aquamarine;
+            display: inline-block;
+            padding: 25px;
+            margin: 25px;
+            width: 150px;
+            /*display: none;*/
+        }
+
+        .this_box {
+            visibility: none;
+            /*display: flex;*/
+            display: inline-flex;
+            justify-content: center;
+        }
+
+        .span1 {
+            border: 2px solid grey;
+            background-color: rgb(92, 182, 18);
+        }
+
+        .span2 {
+            border: 2px solid grey;
+            background-color: rgb(248, 244, 28);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        I am a box.
+    </div>
+    <div class="box this_box">
+        This is also a box
+    </div>
+    <span class="span1">I am a good</span>
+    <span class="span2">boy</span>
+</body>
+
+</html>
