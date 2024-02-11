@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 600px;
+    width: 400px;
+    background-color: white;
+    border: 2px solid rgb(224, 239, 255);
+    border-radius: 15px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12vh;
+    padding: 10px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    box-shadow: inset 0 -3em 3em rgb(255 255 255 / 30%), 0 0 0 2px white, 0em 0em 1em rgb(0 0 0 / 60%);
+}
+
+.card-1 {
+    height: 500px;
+    width: 300px;
+}
+
+.card>img {
+    height: 300px;
+    width: 400px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.card>ul {
+    margin: 5px 0px;
+}
+
+.card>ul>li {
+    color: rgb(166, 175, 186);
+    display: inline-block;
+    padding: 4px 15px;
+    border: 2px solid rgb(224, 239, 255);
+    border-radius: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    -webkit-border-radius: ;
+    -moz-border-radius: ;
+    -ms-border-radius: ;
+    -o-border-radius: ;
+    margin: 12px 0px;
+}
+
+.card>h2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 35px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.card>p {
+    font-family: 'PT Sans', sans-serif;
+    color: rgb(166, 175, 186);
+    margin-top: 5px;
+    margin-bottom: 15px;
+    width: 400px;
+}
+
+.card>button {
+    font-family: 'Ubuntu', sans-serif;
+    /* position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+    margin-left: 40%;
+    margin-top: 10px;
+    color: rgb(122, 184, 255);
+    padding: 20px 40px;
+    background-color: rgb(224, 239, 255);
+    border: 0px rgb(224, 239, 255);
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    cursor: pointer;
+}
