@@ -1,11 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS Media Queries</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CSS Media Queries</title>
+  <style>
+    :root {
+      --fontcolor: rgb(0, 255, 0);
+      --fontsize: 25px;
+      --box-height: 200px;
+      --box-width: 200px;
+    }
+
+    body {
+      background-color: black;
+    }
+
+    .container {
+      background-color: aqua;
+      margin: 50px;
+      font-size: var(--fontsize);
+      display: flex;
+    }
+
+    .box {
+      height: var(--box-height);
+      width: var(--box-width);
+      background-color: blueviolet;
+      color: var(--fontcolor);
+      margin: 10px;
+      padding: 10px;
+    }
+
+    @media only screen and (max-width: 1050px) {
+      body {
+        background-color: aliceblue;
+      }
+    }
+
+    @media only screen and (max-width: 800px) {
+      body {
+        background-color: rgb(0, 134, 252);
+      }
+
+      .container {
+        flex-direction: column;
+      }
+
+      .box {
+        width: 100%;
+      }
+    }
+    @media screen and (orientation: portrait) {
+            body{
+                border: 2px solid purple;
+            }
+        }
+  </style>
 </head>
+
 <body>
-    
+  <div class="container">
+    <div class="box">Box</div>
+    <div class="box">Box</div>
+    <div class="box">Box</div>
+    <div class="box">Box</div>
+    <div class="box">Box</div>
+    <div class="box">Box</div>
+    <div class="box">Box</div>
+  </div>
 </body>
+
 </html>
