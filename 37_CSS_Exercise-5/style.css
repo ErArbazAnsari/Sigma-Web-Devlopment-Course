@@ -11,6 +11,8 @@
     font-weight: bold;
     position: fixed;
     width: 100%;
+    display:flex;
+    justify-content: center;
 }
 
 .navbar>ul {
