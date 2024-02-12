@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --page_bgcolor: white;
+    --font_color: black;
+    --radius_value: 20px;
+    --navbar_bgcolor: rgb(247, 109, 201);
+    --font_size: 25px;
+    --footer_color: yellow;
+}
+
+.navbar {
+    width: 100vw;
+    height: 3.5vh;
+    margin-top: 0px;
+    background-color: var(--navbar_bgcolor);
+    padding: 15px;
+    font-size: var(--font_size);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    position: fixed;
+}
+
+.navbar>span {
+    background-color: aqua;
+    border: 2px solid black;
+    border-radius: var(--radius_value);
+    -webkit-border-radius: var(--radius_value);
+    -moz-border-radius: var(--radius_value);
+    -ms-border-radius: var(--radius_value);
+    -o-border-radius: var(--radius_value);
+    padding: 3px 15px;
+    cursor: pointer;
+}
+
+.navbar>span:hover {
+    background-color: rgb(85, 202, 202);
+}
+
+.navbar>span:active {
+    color: white;
+}
+
+.body {
+    /* margin-top: 3.5vh; */
+    padding: 8vh 30vh 1vh 30vh;
+    background-color: aqua;
+    height: 90vh;
+}
+
+.footer {
+    background-color: var(--footer_color);
+    height: 12vh;
+    font-size: var(--font_size);
+    text-align: center;
+    padding: 15px;
+}
