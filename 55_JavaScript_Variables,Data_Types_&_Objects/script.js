@@ -17,7 +17,7 @@ console.log(typeof (c));
 const a1 = 10;
 // a1 = a1 + 2; This is Not Allowed because a1 is constant variable
 
-console.log("Value of a1 is: ",a1)
+console.log("Value of a1 is: ", a1)
 
 
 let num1 = 0;
@@ -37,20 +37,20 @@ let w = undefined;
 let x = null;
 let y = 99999999999;
 
-console.log(s, t, u, v, w, x, y );
+console.log(s, t, u, v, w, x, y);
 console.log(typeof s, typeof t, typeof u, typeof v, typeof w, typeof x, typeof y);
 
 
 //Objects in javascript
 let stu1 = {
-    "name" : "Arbaz Ansari",
+    "name": "Arbaz Ansari",
     "roll no": 24018,
-    "class" : "Section 1",
-    "course" : "B.Tech CSE"
+    "class": "Section 1",
+    "course": "B.Tech CSE"
 }
 stu1.semester = "6th"
 console.log(stu1)
 console.log(typeof stu1)
 
 
-document.write(stu1.name," ", stu1.class," ", stu1.course)
+document.write(stu1.name, " ", stu1.class, " ", stu1.course)
