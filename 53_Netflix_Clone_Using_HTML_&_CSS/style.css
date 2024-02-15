@@ -1,0 +1,22 @@
+:root {
+    font_color: #ffff;
+    main_button_color: #E50914;
+    body_bgcolor: #000;
+    font_family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: var(body_bgcolor);
+    color: var(font_color)
+}
+
+.netflix-logo svg{
+    width: 100px;
+}
+
+.home_bgimg>img{
+    height: 71vh;
+    width: 100%;
+}
