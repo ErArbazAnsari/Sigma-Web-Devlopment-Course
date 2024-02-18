@@ -44,3 +44,4 @@ console.log(new_data.sort())
 
 console.log(new_data.splice(1, 4))
 console.log(new_data, new_data.length)
+
