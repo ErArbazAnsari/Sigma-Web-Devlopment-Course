@@ -18,7 +18,7 @@
 // console.log(ans)
 
 
-// Reduce Function
+// Reduce Function 
 var array = [];
 
 function factor(num) {
@@ -29,7 +29,6 @@ function factor(num) {
         return a * b;
     })
 };
-
 
 let ans = factor(5);
 console.log(ans)
