@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inserting and Removing Elements using JavaScript </title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
+            background-color: aqua;
+        }
+
+        .box {
+            height: 100px;
+            width: 100px;
+            display: flex;
+            justify-content: center;
+            background-color: blueviolet;
+            border: 2px solid gold;
+            border-radius: 25px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container" style="display: flex;">
+        <div class="box">box1</div>
+        <div class="box">box2</div>
+    </div>
+    <script>
+        console.log(document.querySelector(".container").innerHTML)
+        console.log(document.querySelector(".container").innerText)
+        console.log(document.querySelector(".box").innerText)
+        console.log(document.querySelector(".box").outerHTML)
+        console.log(document.querySelector(".box").tagName)
+        console.log(document.querySelector(".box").nodeName)
+        console.log(document.querySelector(".container").textContent)
+        //console.log(document.querySelector(".container").hidden)
+        //console.log(document.querySelector(".box").hidden=false)
+        document.querySelector(".box").innerHTML = "Hi!, Javascript Arbaz Ansari this side.";
+
+        console.log(document.querySelector(".container").hasAttribute("style"))
+        console.log(document.querySelector(".container").getAttribute("style"))
+        console.log(document.querySelector(".container").setAttribute("style", "display:inline"))
+
+        let cont = document.querySelector(".container")
+        cont.insertAdjacentHTML("beforebegin", "<b> I am under the water. Please h elp me here too much raining.... iuuuuooooo</b>")
+        //document.designMode="ON"
+    </script>
+</body>
+
+</html>
