@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript - Selecting by Ids, Classes, and More</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: space-evenly;
+            background-color: rgb(205, 181, 218);
+            padding: 20px;
+            border: 2px solid yellowgreen;
+            border-radius: 20px;
+        }
+
+        .boxes {
+            height: 100px;
+            width: 100px;
+            background-color: yellowgreen;
+            border: 2px solid black;
+            margin: 2px;
+            padding: 10px;
+            display: inline-block;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="boxes">1</div>
+        <div class="boxes">2</div>
+        <div class="boxes">3</div>
+        <div class="boxes">4</div>
+        <div class="boxes">5</div>
+        <div class="boxes" id="arbaz_box">10</div>
+    </div>
+    <script>
+        let myboxes = document.getElementsByClassName("boxes")
+        console.log(myboxes);
+
+        myboxes[0].style.backgroundColor = "red";
+        myboxes[1].style.backgroundColor = "yellow";
+        myboxes[2].style.backgroundColor = "green";
+        myboxes[3].style.backgroundColor = "white";
+        document.getElementById("arbaz_box").style.backgroundColor = "purple";
+        document.querySelector(".boxes").style.backgroundColor = "yellow"
+        let mycontainer = document.getElementsByClassName("container")
+        console.log(mycontainer)
+
+    </script>
+</body>
+
+</html>
