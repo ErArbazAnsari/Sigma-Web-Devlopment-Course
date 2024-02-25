@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events, Event Bubbling, setInterval & setTimeout</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
+            border: 3px solid purple;
+            margin-bottom: 20px;
+            background-color: antiquewhite;
+        }
+
+        .box {
+            background-color: blueviolet;
+            height: 100px;
+            font-size: 30px;
+            /*width: 100px;*/
+            border-radius: 15px;
+            border: 2px solid greenyellow;
+            padding: 5px;
+            margin: 20px;
+        }
+
+        .btn {
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+        }
+
+        .btncontent {
+            font-size: 30px;
+            background-color: aqua;
+            border: 2px solid rgb(255, 0, 0);
+            cursor: pointer;
+            padding: 5px 20px;
+            border-radius: 12px;
+        }
+
+        .btncontent:active {
+            font-size: 30px;
+            background-color: rgba(215, 255, 71, 0.728);
+            border: 2px solid rgb(0, 0, 0);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">I am a Box.</div>
+    </div>
+    <div class="btn">
+        <button id="clickme" class="btncontent">Click me</button>
+        <button id="reloadPage" class="btncontent">Reload Page</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
