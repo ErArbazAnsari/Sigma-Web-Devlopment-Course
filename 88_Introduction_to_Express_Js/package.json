@@ -1,13 +1,15 @@
 {
-  "name": "88_introduction_to_express_js",
+  "name": "express",
   "version": "1.0.0",
-  "main": "main.js",
+  "description": "",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
+  "author": "arbaz",
   "license": "ISC",
-  "description": ""
+  "dependencies": {
+    "express": "^4.18.3"
+  }
 }
