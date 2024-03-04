@@ -13,6 +13,9 @@ app.get('/', (req, res) => {
 }).get('/contact', (req, res) => {
     res.send('Hello contact!')
 })
+}).get('/happy', (req, res) => {
+    res.send('Hello contact!')
+})
 
 app.listen(port, () => {
     console.log(`Example app listening on port ${port}`)
