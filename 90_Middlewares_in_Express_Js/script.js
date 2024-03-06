@@ -12,7 +12,8 @@ app.get('/', (req, res) => {
     res.send('Hello home!')
 }).get('/contact', (req, res) => {
     res.send('Hello contact!')
-})
+}).get('/happy', (req, res) => {
+    res.send('Hello contact!')
 }).get('/happy', (req, res) => {
     res.send('Hello contact!')
 })
